@@ -1,0 +1,8 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://edstephens.github.io
+title: The Tuna Knows
+tagline: Uncovering truths behind the answers
+description: From an early age we learn to collaborate on ideas, forming thoughts leading to opinions which we go on to share with others to either reaffirm or question our understanding.<br />In the modern world we are reliant on data above assumptions; for almost anything we ask there is an answer in data, and our ability to access it is more pervasive with each day and yet the most insightful answers require the right questioning.<br />This journal is to investigate the impact a gathering of minds can have on a representation of data, and what pathways lead us to answers.
+paginate: 5
