@@ -5,3 +5,5 @@ title: Test post
 ---
 Can I embed URL links?
 [BBC] (http://www.bbc.co.uk)
+
+<http://www.bbc.co.uk>
