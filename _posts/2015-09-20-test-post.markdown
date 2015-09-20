@@ -1,0 +1,7 @@
+---
+published: true
+layout: post
+title: Test post
+---
+Can I embed URL links?
+http://www.bbc.co.uk
