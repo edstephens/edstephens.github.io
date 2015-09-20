@@ -10,3 +10,5 @@ Can I embed URL links?
 
 First header | Second header
 Test.              |. Anothed
+
+<http://sourgeforge.net/p/tinypress/discussion/markdown_syntax>
