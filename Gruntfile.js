@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js',
         'assets/js/*.js',
-        'assets/js/plugins/*.js',
+        '!assets/js/plugins/*.js',
         '!assets/js/scripts.min.js'
       ]
     },
@@ -21,17 +21,6 @@ module.exports = function(grunt) {
         },
         files: {
           'assets/css/main.min.css': [
-            'assets/less/main.less'
-          ]
-        }
-      },
-      dev: {
-        options: {
-          compile: true,
-          compress: false
-        },
-        files: {
-          'assets/css/main.css': [
             'assets/less/main.less'
           ]
         }
@@ -74,8 +63,7 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: [
-          'assets/less/*.less',
-          'assets/less/bootstrap/*.less'
+          'assets/less/*.less'
         ],
         tasks: ['recess']
       },
